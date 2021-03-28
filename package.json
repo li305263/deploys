@@ -1,0 +1,26 @@
+{
+  "name": "deploys",
+  "version": "1.0.0",
+  "description": "自动化部署工具",
+  "homepage": "https://github.com/li305263/deploys",
+  "keywords": [
+    "auto",
+    "deploy",
+    "auto deploy"
+  ],
+  "bin": {
+    "deploys": "bin/commander.js"
+  },
+  "main": "lib/deploy.js",
+  "author": "li305263",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "node-ssh": "^11.1.1",
+    "ora": "^5.4.0",
+    "shelljs": "^0.8.4",
+    "zip-local": "^0.3.4"
+  }
+}
